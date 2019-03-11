@@ -1,0 +1,4 @@
+#Sun Mar 10 20:15:24 EDT 2019
+base.0=G\:\\My Documents\\BreathLeaf\\BreathLeaf\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+path.0=classes.dex
+renamed.0=classes.dex
