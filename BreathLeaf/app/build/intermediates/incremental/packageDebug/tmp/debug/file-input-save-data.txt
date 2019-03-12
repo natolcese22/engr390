@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Sun Mar 10 20:15:25 EDT 2019
-0.baseType=DIRECTORY
-0.base=G\:\\My Documents\\BreathLeaf\\BreathLeaf\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
-0.path=classes.dex
-0.set=DEX
-count=1

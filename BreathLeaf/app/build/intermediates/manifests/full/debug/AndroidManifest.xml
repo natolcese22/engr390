@@ -24,9 +24,10 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.y_barham.breathleaf.BeginSession" />
-        <activity android:name="com.example.y_barham.breathleaf.OptionsActivity" />
-        <activity android:name="com.example.y_barham.breathleaf.SettingsActivity" />
-        <activity android:name="com.example.y_barham.breathleaf.MeditationActivity" />
+        <activity
+            android:name="com.example.y_barham.breathleaf.MeditationActivity"
+            android:parentActivityName="com.example.y_barham.breathleaf.BeginSession" />
+activity>
         <activity android:name="com.example.y_barham.breathleaf.CreateAccount" />
     </application>
 

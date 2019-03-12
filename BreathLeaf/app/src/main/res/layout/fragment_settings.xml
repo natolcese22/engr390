@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeginSession">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Switch
+            android:id="@+id/doNotDisturbSwitch"
+            android:layout_width="266dp"
+            android:layout_height="37dp"
+            android:layout_alignStart="@+id/visualsSwitch"
+            android:layout_centerVertical="true"
+            android:text="Do Not Disturb"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/vocalGuideSwitch"
+            android:layout_width="266dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/visualsSwitch"
+            android:layout_marginTop="161dp"
+            android:text="Vocal Guide"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/musicSwitch"
+            android:layout_width="266dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/visualsSwitch"
+            android:layout_marginTop="93dp"
+            android:text="Music"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <Switch
+            android:id="@+id/visualsSwitch"
+            android:layout_width="266dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="22dp"
+            android:text="Visuals"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dismissButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="104dp"
+            android:layout_marginStart="101dp"
+            android:text="Dismiss"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
